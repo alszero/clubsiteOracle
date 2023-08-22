@@ -1,0 +1,93 @@
+/* join.css */
+
+.JoinForm {
+    width: 30%;
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .InputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+  
+  .CheckboxGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .Checkbox {
+    margin-right: 5px;
+  }
+  
+  .PasswordInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .Button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .Button:hover {
+    background-color: #0056b3;
+  }
+  
+  .MyPage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .MyPage p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .MyPage button {
+    background-color: #FF6686;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .MyPage button:hover {
+    background-color: #FF4060;
+  }
