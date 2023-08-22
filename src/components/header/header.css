@@ -1,0 +1,17 @@
+.nav-box {
+    display: flex;
+    gap: 40px;
+}
+
+h1{
+    color: #FF6686;
+    cursor: pointer;
+}
+
+.nav-tab  {
+    cursor: pointer;
+}
+
+.container{
+    box-shadow: 7px 8px 20px #eee;
+}
