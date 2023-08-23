@@ -18,7 +18,7 @@ const ABOUT = () => {
                         </center>
                         <br />
                         <div className="title_contents">
-                        <img className="logo" src={LogoImg} alt="logo" />
+                            <img className="logo" src={LogoImg} alt="logo" />
                         </div>
                     </div>
                     <div className="box2">
