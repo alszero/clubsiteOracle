@@ -12,7 +12,7 @@ const Home = ()=> {
             <Header navigate={navigate}/>
             <div>
                 <img className="bg" src={BackgroundImg} alt="bg" />
-                <div className="title">
+                <div className="title_">
                     <p className="first">USER에서 MAKER로 거듭나고자 하는</p>
                     <p className="first" style={{marginTop : '1%'}}>당신을 위한 최고의 선택, APP&ME</p>
                     <hr />
