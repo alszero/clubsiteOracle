@@ -7,6 +7,7 @@ import MyPage from './pages/mypage/mypage';
 import ABOUT from './pages/about/about';
 
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>
