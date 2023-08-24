@@ -5,6 +5,7 @@ import JOIN from './pages/join/join';
 import LOGIN from './pages/login/login';
 import MyPage from './pages/mypage/mypage';
 import ABOUT from './pages/about/about';
+import APPLY from './pages/apply/applypage';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
           <Route path="/mypage" element={<MyPage />}/>
           <Route path="/login" element={<LOGIN />}/>
           <Route path="/about" element={<ABOUT />}/>
+          <Route path="/apply" element={<APPLY />}/>
         </Routes>
       </BrowserRouter>
     </div>
