@@ -100,26 +100,32 @@
     .about {
         font-weight: 700;
         font-size: 5em;
+        margin-right: 0;
     }
   
     .box1 hr {
-        width: 50%;
+        width: 80%;
         height: 3px;
         border-bottom: 0px;
         border-top: 0px;
         margin-bottom: 5%;
-        margin-left: 3%;
+        margin-left: 9%;
     }
-  
-    .box1 img.logo {
-      width: 45vw;
-      height: 45vw;
+    .box1 .title_contents {
+      width: 100%;
+    }
+
+    .box1 .title_contents .logo {
+        width: 35vw;
+        height: 35vh;
+        margin-top: 1%;
+        margin-left: 32%;
     }
   
     .box2 {
       width: 50%;
-      margin-top: 88%;
-      margin-left: 22%;
+      margin-top: 80%;
+      margin-left: 23%;
     }
   
     .box2 .title {
